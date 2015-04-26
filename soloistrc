@@ -32,6 +32,7 @@ recipes:
 - sprout-osx-apps::firefox_aurora
 - sprout-osx-apps::flycut
 - sprout-osx-apps::shiftit
+- sprout-keycastr
 
 # apps (editors)
 #- sprout-osx-apps::textmate_bundles
@@ -59,15 +60,20 @@ node_attributes:
       magnification: true
     homebrew:
       formulae:
+        - beanstalk
         - ctags-exuberant
         - ag
         - chromedriver
         - graphicsmagick
         - imagemagick
+        - memcached
+        - mongodb
         - nginx
         - node
+        - python
         # - pstree # Skip until download url is fixed: https://github.com/Homebrew/homebrew/pull/35135
         - qt
+        - redis
         - ssh-copy-id
         - tmux
         - tree
@@ -79,10 +85,12 @@ node_attributes:
         - atom
         #- ccmenu
         - caffeine
+        - cocoapods
         - colors
         - cyberduck
         - dash
         - dropbox
+        - ec2-api-tools
         - evernote
         - fabric
         - firefox
@@ -98,6 +106,7 @@ node_attributes:
         - java
         - keepassx
         - libreoffice
+        - mysqlworkbench
         - omnidisksweeper
         - sequel-pro
         - skitch

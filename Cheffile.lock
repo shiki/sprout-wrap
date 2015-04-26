@@ -36,6 +36,16 @@ GIT
       homebrew (>= 1.5.4)
 
 GIT
+  remote: https://github.com/pivotal-sprout/sprout-keycastr
+  ref: master
+  sha: d79c78161b02b9ea4a5e94d92fe97ddc3a2fbaab
+  specs:
+    sprout-keycastr (0.1.0)
+      dmg (>= 0.0.0)
+      osx (>= 0.0.0)
+      sprout-base (>= 0.0.0)
+
+GIT
   remote: https://github.com/pivotal-sprout/sprout-mysql
   ref: master
   sha: 7501fffff8a5c6e9237b295ab586595eeb2bb06e
@@ -123,6 +133,7 @@ DEPENDENCIES
   sprout-base (>= 0)
   sprout-git (>= 0)
   sprout-homebrew (>= 0)
+  sprout-keycastr (>= 0)
   sprout-mysql (>= 0)
   sprout-osx-apps (>= 0)
   sprout-osx-settings (>= 0)
