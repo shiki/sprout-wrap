@@ -14,11 +14,11 @@ recipes:
 - sprout-ssh::known_hosts_github
 
 # development (general)
-- sprout-base::workspace_directory
+#- sprout-base::workspace_directory
 - sprout-git
 - sprout-git::default_editor
-- sprout-git::projects
-- sprout-git::git_scripts
+#- sprout-git::projects
+#- sprout-git::git_scripts
 
 # development (rails)
 - sprout-rbenv
@@ -32,41 +32,29 @@ recipes:
 - sprout-osx-apps::shiftit
 
 # apps (editors)
-- sprout-osx-apps::textmate_bundles
-- sprout-osx-apps::textmate_preferences
+#- sprout-osx-apps::textmate_bundles
+#- sprout-osx-apps::textmate_preferences
 - sprout-osx-apps::macvim
-- sprout-rubymine
+#- sprout-rubymine
 
 node_attributes:
   sprout:
     git:
-      domain: pivotallabs.com
       authors:
-        - initials: ah
-          name: Abhijit Hiremagalur
-          username: abhi
-        - initials: bc
-          name: Brian Cunnie
-          username: cunnie
-        - initials: jrhb
-          name: Jonathan Barnes
-        - initials: lw
-          name: Luke Winikates
-          username: lwinikates
-      projects:
-        -
-          name: sprout-wrap
-          url: https://github.com/pivotal-sprout/sprout-wrap.git
+        - initials: shiki
+          name: Jayson Basañes
+          email: jayson@basanes.net
     terminal:
       default_profile: 'Pro'
     settings:
       clock_format: EEE MMM d  h:mm:ss a
     dock_preferences:
-      orientation: 'left'
+      orientation: 'bottom'
       auto_hide: true
-      clear_apps: true
+      clear_apps: false
       tile_size: 35
-      magnification: false
+      large_size: 60
+      magnification: true
     homebrew:
       formulae:
         - ctags-exuberant
@@ -84,16 +72,16 @@ node_attributes:
         - rbenv-binstubs
         - rbenv-gem-rehash
       casks:
-        - ccmenu
+        #- ccmenu
         - firefox
-        - gitx-rowanj
+        #- gitx-rowanj
         - github
         - google-chrome
         - google-drive
-        - google-hangouts
+        #- google-hangouts
         - skype
-        - textmate
+        #- textmate
         - vagrant
         - virtualbox
         - xquartz
-        - xscope
+        #- xscope
