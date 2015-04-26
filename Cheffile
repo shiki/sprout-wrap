@@ -43,3 +43,5 @@ cookbook 'sprout-ssh',
 
 cookbook 'sprout-keycastr',
   :github => 'pivotal-sprout/sprout-keycastr'
+
+cookbook 'php', :path => 'site-cookbooks/php'

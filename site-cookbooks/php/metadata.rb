@@ -1,0 +1,10 @@
+name 'php'
+maintainer 'Shiki'
+maintainer_email 'jayson@basanes.net'
+license 'MIT'
+description 'Cookbook for installing PHP and some common packages'
+version '0.1.0'
+supports 'mac_os_x'
+depends 'homebrew'
+depends 'sprout-base'
+

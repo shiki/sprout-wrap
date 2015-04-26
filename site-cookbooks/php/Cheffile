@@ -1,0 +1,6 @@
+site 'https://supermarket.getchef.com/api/v1'
+
+cookbook 'php', path: '.'
+cookbook 'sprout-base', github: 'pivotal-sprout/sprout-base'
+cookbook 'homebrew'
+

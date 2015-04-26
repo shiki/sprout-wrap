@@ -40,6 +40,8 @@ recipes:
 - sprout-osx-apps::macvim
 #- sprout-rubymine
 
+- php
+
 node_attributes:
   sprout:
     git:
@@ -60,6 +62,7 @@ node_attributes:
       magnification: true
     homebrew:
       formulae:
+        - ack
         - beanstalk
         - ctags-exuberant
         - ag
