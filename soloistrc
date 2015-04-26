@@ -67,11 +67,15 @@ node_attributes:
         - ctags-exuberant
         - ag
         - chromedriver
+        - go
         - graphicsmagick
+        - gpg
         - imagemagick
+        - lftp
         - memcached
         - mongodb
         - nginx
+        - nmap
         - node
         - python
         # - pstree # Skip until download url is fixed: https://github.com/Homebrew/homebrew/pull/35135
