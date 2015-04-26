@@ -27,7 +27,9 @@ recipes:
 - sprout-postgresql
 
 # apps
+- sprout-osx-apps::chrome_canary
 - sprout-osx-apps::iterm2
+- sprout-osx-apps::firefox_aurora
 - sprout-osx-apps::flycut
 - sprout-osx-apps::shiftit
 
@@ -60,7 +62,9 @@ node_attributes:
         - ctags-exuberant
         - ag
         - chromedriver
+        - graphicsmagick
         - imagemagick
+        - nginx
         - node
         # - pstree # Skip until download url is fixed: https://github.com/Homebrew/homebrew/pull/35135
         - qt
@@ -72,16 +76,39 @@ node_attributes:
         - rbenv-binstubs
         - rbenv-gem-rehash
       casks:
+        - atom
         #- ccmenu
+        - caffeine
+        - colors
+        - cyberduck
+        - dash
+        - dropbox
+        - evernote
+        - fabric
         - firefox
+        - fluid
+        - flux
         #- gitx-rowanj
+        - gimp
         - github
         - google-chrome
         - google-drive
+        - handbrake
+        - icolors
+        - java
+        - keepassx
+        - libreoffice
+        - omnidisksweeper
+        - sequel-pro
+        - skitch
         #- google-hangouts
         - skype
+        - slack
+        - spotify
+        - sublime-text
         #- textmate
         - vagrant
         - virtualbox
+        - vlc
         - xquartz
         #- xscope
